@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3DCD9261CBD343A0051230F /* KTImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD9241CBD343A0051230F /* KTImagePickerViewController.m */; };
+		E3DCD9271CBD343A0051230F /* KTImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DCD9251CBD343A0051230F /* KTImagePickerViewController.xib */; };
+		E3DCD9291CBD36EC0051230F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCD9281CBD36EC0051230F /* MobileCoreServices.framework */; };
+		E3DCD92D1CBD3C110051230F /* KTScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD92C1CBD3C110051230F /* KTScanController.m */; };
+		E3DCD9311CBD3CC30051230F /* KTScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD92F1CBD3CC30051230F /* KTScanViewController.m */; };
+		E3DCD9321CBD3CC30051230F /* KTScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3DCD9301CBD3CC30051230F /* KTScanViewController.xib */; };
+		E3DCD9351CBD3CF70051230F /* KTScanSelectionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD9341CBD3CF70051230F /* KTScanSelectionBar.m */; };
 		E3FACE441CBD9BD600F7C460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FACE431CBD9BD600F7C460 /* main.m */; };
 		E3FACE471CBD9BD600F7C460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FACE461CBD9BD600F7C460 /* AppDelegate.m */; };
-		E3FACE4A1CBD9BD600F7C460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FACE491CBD9BD600F7C460 /* ViewController.m */; };
 		E3FACE4D1CBD9BD600F7C460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FACE4B1CBD9BD600F7C460 /* Main.storyboard */; };
 		E3FACE4F1CBD9BD600F7C460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FACE4E1CBD9BD600F7C460 /* Assets.xcassets */; };
 		E3FACE521CBD9BD600F7C460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FACE501CBD9BD600F7C460 /* LaunchScreen.storyboard */; };
 		E3FACE5D1CBD9BD700F7C460 /* KTImageVideoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FACE5C1CBD9BD700F7C460 /* KTImageVideoDemoTests.m */; };
 		E3FACE681CBD9BD700F7C460 /* KTImageVideoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FACE671CBD9BD700F7C460 /* KTImageVideoDemoUITests.m */; };
+		E3FACE7B1CBD9BF600F7C460 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FACE7A1CBD9BF600F7C460 /* RootTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3DCD9231CBD343A0051230F /* KTImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTImagePickerViewController.h; sourceTree = "<group>"; };
+		E3DCD9241CBD343A0051230F /* KTImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTImagePickerViewController.m; sourceTree = "<group>"; };
+		E3DCD9251CBD343A0051230F /* KTImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTImagePickerViewController.xib; sourceTree = "<group>"; };
+		E3DCD9281CBD36EC0051230F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E3DCD92B1CBD3C110051230F /* KTScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScanController.h; sourceTree = "<group>"; };
+		E3DCD92C1CBD3C110051230F /* KTScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScanController.m; sourceTree = "<group>"; };
+		E3DCD92E1CBD3CC30051230F /* KTScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScanViewController.h; sourceTree = "<group>"; };
+		E3DCD92F1CBD3CC30051230F /* KTScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScanViewController.m; sourceTree = "<group>"; };
+		E3DCD9301CBD3CC30051230F /* KTScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTScanViewController.xib; sourceTree = "<group>"; };
+		E3DCD9331CBD3CF70051230F /* KTScanSelectionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTScanSelectionBar.h; sourceTree = "<group>"; };
+		E3DCD9341CBD3CF70051230F /* KTScanSelectionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTScanSelectionBar.m; sourceTree = "<group>"; };
 		E3FACE3F1CBD9BD600F7C460 /* KTImageVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTImageVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FACE431CBD9BD600F7C460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3FACE451CBD9BD600F7C460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3FACE461CBD9BD600F7C460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3FACE481CBD9BD600F7C460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3FACE491CBD9BD600F7C460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3FACE4C1CBD9BD600F7C460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3FACE4E1CBD9BD600F7C460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3FACE511CBD9BD600F7C460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,8 @@
 		E3FACE631CBD9BD700F7C460 /* KTImageVideoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTImageVideoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FACE671CBD9BD700F7C460 /* KTImageVideoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTImageVideoDemoUITests.m; sourceTree = "<group>"; };
 		E3FACE691CBD9BD700F7C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FACE791CBD9BF600F7C460 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		E3FACE7A1CBD9BF600F7C460 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DCD9291CBD36EC0051230F /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +97,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3DCD9221CBD33F10051230F /* UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCD9231CBD343A0051230F /* KTImagePickerViewController.h */,
+				E3DCD9241CBD343A0051230F /* KTImagePickerViewController.m */,
+				E3DCD9251CBD343A0051230F /* KTImagePickerViewController.xib */,
+			);
+			path = UIImagePickerController;
+			sourceTree = "<group>";
+		};
+		E3DCD92A1CBD3BDE0051230F /* 二维码，条形码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCD92B1CBD3C110051230F /* KTScanController.h */,
+				E3DCD92C1CBD3C110051230F /* KTScanController.m */,
+				E3DCD92E1CBD3CC30051230F /* KTScanViewController.h */,
+				E3DCD92F1CBD3CC30051230F /* KTScanViewController.m */,
+				E3DCD9301CBD3CC30051230F /* KTScanViewController.xib */,
+				E3DCD9331CBD3CF70051230F /* KTScanSelectionBar.h */,
+				E3DCD9341CBD3CF70051230F /* KTScanSelectionBar.m */,
+			);
+			path = "二维码，条形码扫描";
+			sourceTree = "<group>";
+		};
 		E3FACE361CBD9BD600F7C460 = {
 			isa = PBXGroup;
 			children = (
+				E3DCD9281CBD36EC0051230F /* MobileCoreServices.framework */,
 				E3FACE411CBD9BD600F7C460 /* KTImageVideoDemo */,
 				E3FACE5B1CBD9BD700F7C460 /* KTImageVideoDemoTests */,
 				E3FACE661CBD9BD700F7C460 /* KTImageVideoDemoUITests */,
@@ -101,10 +145,13 @@
 		E3FACE411CBD9BD600F7C460 /* KTImageVideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E3FACE751CBD9BF600F7C460 /* Helpers */,
+				E3DCD9221CBD33F10051230F /* UIImagePickerController */,
+				E3DCD92A1CBD3BDE0051230F /* 二维码，条形码扫描 */,
 				E3FACE451CBD9BD600F7C460 /* AppDelegate.h */,
 				E3FACE461CBD9BD600F7C460 /* AppDelegate.m */,
-				E3FACE481CBD9BD600F7C460 /* ViewController.h */,
-				E3FACE491CBD9BD600F7C460 /* ViewController.m */,
+				E3FACE791CBD9BF600F7C460 /* RootTableViewController.h */,
+				E3FACE7A1CBD9BF600F7C460 /* RootTableViewController.m */,
 				E3FACE4B1CBD9BD600F7C460 /* Main.storyboard */,
 				E3FACE4E1CBD9BD600F7C460 /* Assets.xcassets */,
 				E3FACE501CBD9BD600F7C460 /* LaunchScreen.storyboard */,
@@ -138,6 +185,13 @@
 				E3FACE691CBD9BD700F7C460 /* Info.plist */,
 			);
 			path = KTImageVideoDemoUITests;
+			sourceTree = "<group>";
+		};
+		E3FACE751CBD9BF600F7C460 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DCD9321CBD3CC30051230F /* KTScanViewController.xib in Resources */,
 				E3FACE521CBD9BD600F7C460 /* LaunchScreen.storyboard in Resources */,
 				E3FACE4F1CBD9BD600F7C460 /* Assets.xcassets in Resources */,
 				E3FACE4D1CBD9BD600F7C460 /* Main.storyboard in Resources */,
+				E3DCD9271CBD343A0051230F /* KTImagePickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3FACE4A1CBD9BD600F7C460 /* ViewController.m in Sources */,
+				E3DCD9311CBD3CC30051230F /* KTScanViewController.m in Sources */,
+				E3DCD9351CBD3CF70051230F /* KTScanSelectionBar.m in Sources */,
+				E3FACE7B1CBD9BF600F7C460 /* RootTableViewController.m in Sources */,
 				E3FACE471CBD9BD600F7C460 /* AppDelegate.m in Sources */,
 				E3FACE441CBD9BD600F7C460 /* main.m in Sources */,
+				E3DCD92D1CBD3C110051230F /* KTScanController.m in Sources */,
+				E3DCD9261CBD343A0051230F /* KTImagePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +558,7 @@
 				E3FACE6E1CBD9BD700F7C460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3FACE6F1CBD9BD700F7C460 /* Build configuration list for PBXNativeTarget "KTImageVideoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +567,7 @@
 				E3FACE711CBD9BD700F7C460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3FACE721CBD9BD700F7C460 /* Build configuration list for PBXNativeTarget "KTImageVideoDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +576,7 @@
 				E3FACE741CBD9BD700F7C460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
